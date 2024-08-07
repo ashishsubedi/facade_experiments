@@ -1,0 +1,8 @@
+{
+    "/api/products": {
+        "method": "GET",
+        "backend_url": "https://fakestoreapi.com/products/",
+        "pre_process": "preprocess_products",
+        "post_process": "postprocess_products"
+    }
+}
